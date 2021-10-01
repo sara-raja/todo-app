@@ -1,0 +1,24 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "To Do Application Project",
+  "default": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html"
+  },
+  "author": "Shirasa P",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "http-server": "^13.0.2",
+    "parcel": "*",
+    "sass": "^1.42.1"
+  },
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "lodash": "^4.17.21",
+    "uuid": "^3.4.0"
+  }
+}
