@@ -1,5 +1,5 @@
 // import heaer from the og file
-import header from './components/header/header'
+// import header from './components/header/header'
 
 
 // get a reference to the app container inside the index.html file:
