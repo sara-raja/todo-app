@@ -22,5 +22,5 @@ console.log(markup);
 // remove
 // adjacent html
 
-app.innerHTML = "<p></p>"
+app.innerHTML = "<p>Hello?</p>"
 // when would you use this?
