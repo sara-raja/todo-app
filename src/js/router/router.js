@@ -8,7 +8,7 @@ const routes = {
     '/signup':signUpPage(),
 }
 
-const router = function(pathname){
+const Router = function(pathname){
     const app = document.querySelector('#app');
     app.innerHTML='';
 
@@ -22,7 +22,5 @@ const router = function(pathname){
 
 }
 
-
-
 export {routes}
-export default router
+export default Router

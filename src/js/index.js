@@ -1,4 +1,4 @@
 import { routes } from "./routes/router";
-import router from "./routes/router";
+import Router from "./routes/router";
 
-router('/');
+Router('/');
