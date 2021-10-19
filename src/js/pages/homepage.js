@@ -1,4 +1,4 @@
-import levelHeading from '../components/ui/levelHeading';
+import levelHeading from '../components/ui/header';
 import link from '../components/ui/link';
 const homePage = function(){
 
