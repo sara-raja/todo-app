@@ -1,7 +1,7 @@
 import Router from "./routes/router";
-import {createStore, getStore} from "./redux/store"
-import dataFetcher from "./utils/dataFetcher";
-import { keyGenerator } from "./utils/keys";
+// import {createStore, getStore} from "./redux/store"
+// import dataFetcher from "./utils/dataFetcher";
+// import { keyGenerator } from "./utils/keys";
 
  
 const app = document.querySelector("#app");
