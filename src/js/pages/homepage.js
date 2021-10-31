@@ -1,15 +1,21 @@
-import levelHeading from '../components/ui/header';
+import heading from '../components/ui/header';
 import link from '../components/ui/link';
+import tagline from '../components/ui/tagline';
+import logo from '../components/ui/logo';
+
 const homePage = function(){
 
     const header = document.createElement('header');
-    const h1 = levelHeading('h1', 'Home Page');
-    const login = link('Login page', '/login');
-    const signup = link('Sign Up', '/signup');
+    const image = logo();
+    const h1 = heading('Spooky To Do', 'home-heading');
+    const subheading = tagline('Do it now, or else', 'home-subheading');
+    const todo = link('Go to app', '/todo', 'todo');
+        header.append(image);
         header.append(h1);
-        header.append(login);
-        header.append(signup);
+        header.append(subheading);
+        header.append(todo);
 
+        header.classList.add('home')
         return header;
 
 }
