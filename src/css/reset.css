@@ -1,0 +1,69 @@
+/*Hybrid of Andy Bells reset. + Modern reset*/
+*,
+*::before,
+*::after
+/*when you use one colon its apseudo class, when
+you use two colon its a pseudo tag.*/{
+	box-sizing: border-box;
+}
+
+body,
+h1,h2,h3,h4,
+p,ul,ol,dl,
+li,dd,
+figcaption, figure, blockquote{
+	margin: 0;
+	padding: 0;
+}
+/* Set core body defaults */
+body {
+	min-height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
+
+h1,h2,h3{
+	font-size: 16px;
+}
+
+ul,ol {
+	list-style-type: none;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	/*this makes the image fill the container that
+	it is in. There are 3 issues:
+	If you go from square to rectangl,e the img will be 
+	skewd
+	if
+	the img is too big or small it will be pixelate. 
+	*/
+}
+
+/*this targets direct descendants of the articlel
+*/
+article>*+* {
+	margin-top: 1em;
+	/*articles dont always inherit the padding and the margins. 
+	*/
+}
+
+/*also have some issues with font inheritance*/
+input, button,
+textarea,select{
+	font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+	* {
+	animation-duration: 0.01ms !important;
+	animation-iteration-count: 1 !important;
+	transition-duration: 0.01ms !important;
+	scroll-behavior: auto !important;
+	}
+}
