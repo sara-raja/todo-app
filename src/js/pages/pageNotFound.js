@@ -1,12 +1,12 @@
 import heading from '../components/ui/header';
 import link from '../components/ui/link';
 import tagline from '../components/ui/tagline';
-import link from "../components/ui/link";
+import makeElement from "./../utils/makeElement";
 
 const notFound = function(){
 
-    const page = document.createElement('div')
-    const backToSafety = link("Back to homepage", '/')
+    const page = document.createElement('div');
+    const backToSafety = link("Back to homepage", '/');
     const template = `
     <header class="ui-header">    
     <h1>Page Not Found</h1>    
