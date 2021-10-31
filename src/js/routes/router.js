@@ -29,7 +29,7 @@ const Router =  function (pathname)   {
     //    }else{
     //     app.appendChild(routes[window.location.pathname]())
     //    }
-    
+    app.appendChild(routes[window.location.pathname]())
 
 }
 
