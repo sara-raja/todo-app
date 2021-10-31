@@ -1,26 +1,40 @@
 import homePage from '../pages/homepage'
-import loginPage from '../pages/loginPage';
-import signUpPage from '../pages/signUpPage';
+import todoPage from '../pages/todoPage';
+import notFound from '../pages/pageNotFound';
 
 const routes = {
-    '/':homePage(),
-    '/login':loginPage(),
-    '/signup':signUpPage(),
+    '/':homePage,
+    '/todo':todoPage,
+
 }
 
-const Router = function(pathname){
-    const app = document.querySelector('#app');
-    app.innerHTML='';
+
+const Router =  function (pathname)   {
+
+    // const isValidRoute = Object.keys(routes).find(key=> key===pathname)
+    // console.log(isValidRoute)
+   
+    // loading and unloading pages into the div app
+    const app = document.querySelector('#app')
+    app.innerHTML = '';
 
     window.history.pushState(
         {},
         pathname,
         window.location.origin + pathname
     )
-
-    app.appendChild(routes[window.location.pathname]);
+    
+    //    if(isValidRoute === undefined){
+    //        app.append(notFound())
+    //    }else{
+    //     app.appendChild(routes[window.location.pathname]())
+    //    }
+    
 
 }
+
+
+
 
 export {routes}
 export default Router
