@@ -68,6 +68,8 @@ a.go-to-app:active{
 }
 aside.todo-list{
     padding: 2rem;
+    max-width: 500px;
+    margin: 0 auto;
 }
 aside.todo-list h2{
     text-align: center;
