@@ -1,7 +1,7 @@
 import heading from '../components/ui/header';
 import link from '../components/ui/link';
 import tagline from '../components/ui/tagline';
-import makeElement from "./../utils/makeElement";
+import makeElement from "../utils/makeElement";
 import pageHeader from '../components/cards/pageHeader';
 
 const notFound = function(){

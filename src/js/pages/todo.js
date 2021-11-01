@@ -1,6 +1,6 @@
-import todolist from "./../components/cards/todolist";
-import {getStore} from "./../redux/store";
-import {todoItems} from "./../components/cards/todoitem"
+import todolist from "../components/cards/todolist";
+import {getStore} from "../redux/store";
+import {todoItems} from "../components/cards/todoitem"
 import pageHeader from "../components/cards/pageHeader";
 import button from "../components/ui/button";
 

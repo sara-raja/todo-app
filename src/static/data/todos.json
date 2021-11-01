@@ -1,6 +1,6 @@
 [
     {
-        "category":"home",
+        "category":"Home Category",
         "title":"vaccum the house",
         "isCompleted":true,
         "startDate": "Friday October 29th",
@@ -9,7 +9,7 @@
         "endTime":"10:00am"
     },
     {
-        "category":"school",
+        "category":"School Category",
         "title":"JS assignment",
         "isCompleted":true,
         "startDate":"Friday October 15th",
@@ -18,7 +18,7 @@
         "endTime":"10:00pm"
     },
     {
-        "category":"health",
+        "category":"Health Category",
         "title":"Dental appointment",
         "isCompleted":true,
         "startDate":"Monday November 2nd",
@@ -27,7 +27,7 @@
         "endTime":"4:00pm"
     },
     {
-        "category":"friends",
+        "category":"Friend Category",
         "title":"Birthday party",
         "isCompleted":true,
         "startDate":"Tuesday October 26th",
@@ -37,7 +37,7 @@
     }
     ,
     {
-        "category":"work",
+        "category":"Work Category",
         "title":"Team meeting",
         "isCompleted":true,
         "startDate":"Thursday October 28th",
