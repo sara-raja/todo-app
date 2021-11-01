@@ -1,0 +1,26 @@
+[{
+        "category":"home",
+        "title":"short description of the to do",
+        "isCompleted":true
+    },
+    {
+        "category":"school",
+        "title":"short description of the to do",
+        "isCompleted":true
+    },
+    {
+        "category":"health",
+        "title":"short description of the to do",
+        "isCompleted":true
+    },
+    {
+        "category":"friends",
+        "title":"short description of the to do",
+        "isCompleted":true
+    }
+    ,
+    {
+        "category":"work",
+        "title":"short description of the to do",
+        "isCompleted":true
+    }]
