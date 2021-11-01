@@ -8,8 +8,8 @@ const homePage = function(){
     const header = document.createElement('header');
     const image = logo();
     const h1 = heading('Spooky To Do', 'home-heading');
-    const subheading = tagline('Do it now, or else', 'home-subheading');
-    const todo = link('Go to app', '/todo', 'todo');
+    const subheading = tagline('Do it now, or else...', 'home-subheading');
+    const todo = link('Go to app', '/todo', 'go-to-app');
         header.append(image);
         header.append(h1);
         header.append(subheading);
