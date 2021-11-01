@@ -21,6 +21,7 @@ const onAppInit = async function(e){
   
     // build the data store for the app
   createStore(keyGenerator(todo))
+  // console.log(todo)
   Router(window.location.pathname)
   
 

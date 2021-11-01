@@ -1,26 +1,48 @@
-[{
+[
+    {
         "category":"home",
-        "title":"short description of the to do",
-        "isCompleted":true
+        "title":"vaccum the house",
+        "isCompleted":true,
+        "startDate": "Friday October 29th",
+        "startTime":"9:00am",
+        "endDate":"Friday October 29th",
+        "endTime":"10:00am"
     },
     {
         "category":"school",
-        "title":"short description of the to do",
-        "isCompleted":true
+        "title":"JS assignment",
+        "isCompleted":true,
+        "startDate":"Friday October 15th",
+        "startTime":"8:00am",
+        "endDate":"Sunday October 31st",
+        "endTime":"10:00pm"
     },
     {
         "category":"health",
-        "title":"short description of the to do",
-        "isCompleted":true
+        "title":"Dental appointment",
+        "isCompleted":true,
+        "startDate":"Monday November 2nd",
+        "startTime":"3:00pm",
+        "endDate":"Monday November 2nd",
+        "endTime":"4:00pm"
     },
     {
         "category":"friends",
-        "title":"short description of the to do",
-        "isCompleted":true
+        "title":"Birthday party",
+        "isCompleted":true,
+        "startDate":"Tuesday October 26th",
+        "startTime":"5:00pm",
+        "endDate":"Tuesday October 26th",
+        "endTime":"10:00pm"
     }
     ,
     {
         "category":"work",
-        "title":"short description of the to do",
-        "isCompleted":true
-    }]
+        "title":"Team meeting",
+        "isCompleted":true,
+        "startDate":"Thursday October 28th",
+        "startTime":"10:00am",
+        "endDate":"Thursday October 28th",
+        "endTime":"12:00pm"
+    }
+]
